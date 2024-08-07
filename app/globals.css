@@ -6,16 +6,63 @@
   body {
     @apply antialiased;
   }
+  .animate-gradient-8s {
+    background-size: 300%;
+    -webkit-animation: animatedgradient 8s ease infinite alternate;
+    -moz-animation: animatedgradient 8s ease infinite alternate;
+    animation: animatedgradient 8s ease infinite alternate;
+  }
+
+  @keyframes animatedgradient {
+    0% {
+      background-position: 50% 0%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .animate-gradient-10s {
+    background-size: 300%;
+    -webkit-animation: animatedgradient 10s ease infinite alternate;
+    -moz-animation: animatedgradient 10s ease infinite alternate;
+    animation: animatedgradient 10s ease infinite alternate;
+  }
+
+  @keyframes animatedgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 }
 
 @layer utilities {
   .clipper-path {
     clip-path: polygon(0 31%, 100% 0, 100% 100%, 0% 100%);
   }
+  .clipper-path-mobile {
+    clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
+  }
 }
 
 @layer components {
   .btn {
     @apply rounded-lg py-2 px-5;
+  }
+}
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 1px gray;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px black;
   }
 }

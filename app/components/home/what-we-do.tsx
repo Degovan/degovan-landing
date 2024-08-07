@@ -1,7 +1,7 @@
 export default function whatWeDo() {
   return (
     <div>
-      <div className="border-l  border-r container  max-w-5xl  mx-auto grid grid-cols-1 gap-5 justify-center pt-20 pb-44 space-y-8 w-full">
+      <div className="border-l  border-r container max-w-7xl   mx-auto grid grid-cols-1 gap-5 justify-center pt-20 pb-44 space-y-8 w-full">
         <div className="lg:flex grid grid-cols-1 lg:p-0 p-10 lg:gap-5 gap-10 items-center justify-between ">
           <div className="space-y-5 lg:order-1 order-2">
             <div className="text-primary flex items-center gap-4">

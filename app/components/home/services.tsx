@@ -1,9 +1,30 @@
 import React from "react";
-
+import Card from "@/app/components/home/service/card";
 export default function Services() {
+  const services = [
+    {
+      title: "Web Development",
+      img: "./assets/card/web-transparent.png",
+      description:
+        "We build websites that are functional, beautiful, and easy to use.",
+    },
+    {
+      title: "Mobile Development",
+      img: "./assets/card/mobile-transparent.png",
+      description:
+        "We build websites that are functional, beautiful, and easy to use.",
+    },
+    {
+      title: "UI / UX Design",
+      img: "./assets/card/mobile-transparent.png",
+      description:
+        "We build websites that are functional, beautiful, and easy to use.",
+    },
+  ];
+
   return (
     <div className="bg-[#F6F9FC]">
-      <div className="border-l  border-r container pt-20 pb-60  max-w-5xl mx-auto grid grid-cols-1 gap-5 justify-center  space-y-8 w-full">
+      <div className="border-l  border-r container pt-20 pb-60 max-w-7xl   mx-auto grid grid-cols-1 gap-5 justify-center  space-y-8 w-full">
         <div className="space-y-5 lg:p-0 p-8 ">
           <div className="text-primary flex items-center gap-4">
             <div className="w-1 h-4 lg:-ml-0.5 ml-4 bg-primary"></div>
@@ -21,52 +42,15 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 p-5 lg:gap-5 gap-10 justify-center">
-          <div className="card p-1 border bg-white">
-            <img
-              src="./assets/card/web.png"
-              className="w-full"
-              alt=""
+        <div className="grid break-inside-avoid overflow-hidden lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-5 lg:gap-5 gap-10 justify-center">
+          {services.map((service) => (
+            <Card
+              key={service.title}
+              title={service.title}
+              img={service.img}
+              description={service.description}
             />
-            <div className="p-5 space-y-3">
-              <h2 className="font-semibold tracking-tighter lg:text-2xl text-xl text-gray-600">
-                Develop websites
-              </h2>
-              <p className="text-gray-400  text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-          </div>
-          <div className="card p-1 border bg-white">
-            <img
-              src="./assets/card/mobile.png"
-              className="w-full"
-              alt=""
-            />
-            <div className="p-5 space-y-3">
-              <h2 className="font-semibold tracking-tighter lg:text-2xl text-xl text-gray-600">
-                Develop mobile apps
-              </h2>
-              <p className="text-gray-400  text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-          </div>
-          <div className="card p-1 border bg-white">
-            <img
-              src="./assets/card/mobile.png"
-              className="w-full"
-              alt=""
-            />
-            <div className="p-5 space-y-3">
-              <h2 className="font-semibold tracking-tighter lg:text-2xl text-xl text-gray-600">
-                Redevelop apps
-              </h2>
-              <p className="text-gray-400  text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
