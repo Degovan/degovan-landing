@@ -1,28 +1,30 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import Card from "@/app/components/contributors/list/card";
-const team = [
-  {
-    title: "Fahmi Dafrin Maulana",
-    img: "./assets/card/mobile-transparent.png",
-    description: "Founder or Owner Degovan",
-  },
-  {
-    title: "Ahmad Irsyadul'ibad",
-    img: "./assets/card/mobile-transparent.png",
-    description: "Backend Engineer",
-  },
-  {
-    title: "Mohammad Sahrullah",
-    img: "./assets/card/mobile-transparent.png",
-    description: "Frontend Engineer",
-  },
-  {
-    title: "Azza Wafiqurrohmah",
-    img: "./assets/card/mobile-transparent.png",
-    description: "Web Developer",
-  },
-];
 export default function list() {
+  type Contributors = {
+    name: string;
+    photo: string;
+    role: string;
+    quotes: string;
+  };
+
+  const [data, setData] = useState<Contributors[]>([]);
+
+  const getData = async () => {
+    try {
+      const response = await fetch(`${process.env.API_URL}contributors`);
+      const result = await response.json();
+      setData(result.data.contributors);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div className="bg-white relative z-10">
       <div className="border-l  border-r container pt-20 pb-60 max-w-7xl   mx-auto grid grid-cols-1 gap-5 justify-center  space-y-8 w-full">
@@ -37,12 +39,13 @@ export default function list() {
           </div>
         </div>
         <div className="grid break-inside-avoid overflow-hidden lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-5 lg:gap-5 gap-10 justify-center">
-          {team.map((service) => (
+          {data.map((item) => (
             <Card
-              key={service.title}
-              title={service.title}
-              img={service.img}
-              description={service.description}
+              key={item.name}
+              name={item.name}
+              photo={item.photo}
+              role={item.role}
+              quote={item.quotes}
             />
           ))}
         </div>

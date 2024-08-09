@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import Card from "@/app/components/projects/list/card";
-
 type Portfolio = {
   name: string;
   images: string;
@@ -12,9 +11,7 @@ export default function List() {
 
   const getData = async () => {
     try {
-      const response = await fetch(
-        "https://backend.degovan.my.id/api/portfolios"
-      );
+      const response = await fetch(`${process.env.API_URL}portfolios`);
       const result = await response.json();
       setData(result.data.portfolios);
     } catch (error) {

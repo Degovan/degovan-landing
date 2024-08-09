@@ -1,10 +1,33 @@
+"use client";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { useState, useEffect } from "react";
+
 export default function faq() {
+  const [data, setData] = useState<FAQ[]>([]);
+  type FAQ = {
+    id: number;
+    question: string;
+    answer: string;
+  };
+  const getData = async () => {
+    try {
+      const response = await fetch(`${process.env.API_URL}faqs`);
+      const result = await response.json();
+      setData(result.data.faqs);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div className="w-full border-t-2 border-dashed  bg-[#F6F9FC] relative">
       <div className="absolute -top-56 md:block hidden right-20">
@@ -28,86 +51,22 @@ export default function faq() {
             </p>
           </div>
           <div className="px-5">
-            <Accordion
-              type="single"
-              collapsible
-            >
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="text-gray-600 decoration-transparent text-lg font-semibold tracking-tighter">
-                  Is it accessible?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-500">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Veritatis eum accusamus cum delectus et dolorem praesentium.
-                  Et dolor nihil, harum maxime amet accusamus assumenda corrupti
-                  repellendus fugiat expedita aliquam asperiores.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-            <Accordion
-              type="single"
-              collapsible
-            >
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="text-gray-600 decoration-transparent text-lg font-semibold tracking-tighter">
-                  Is it cheap?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-500">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Veritatis eum accusamus cum delectus et dolorem praesentium.
-                  Et dolor nihil, harum maxime amet accusamus assumenda corrupti
-                  repellendus fugiat expedita aliquam asperiores.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-            <Accordion
-              type="single"
-              collapsible
-            >
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="text-gray-600 decoration-transparent text-lg font-semibold tracking-tighter">
-                  Is it use modern framework?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-500">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Veritatis eum accusamus cum delectus et dolorem praesentium.
-                  Et dolor nihil, harum maxime amet accusamus assumenda corrupti
-                  repellendus fugiat expedita aliquam asperiores.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-            <Accordion
-              type="single"
-              collapsible
-            >
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="text-gray-600 decoration-transparent text-lg font-semibold tracking-tighter">
-                  Can use legacy framework or native?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-500">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Veritatis eum accusamus cum delectus et dolorem praesentium.
-                  Et dolor nihil, harum maxime amet accusamus assumenda corrupti
-                  repellendus fugiat expedita aliquam asperiores.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-            <Accordion
-              type="single"
-              collapsible
-            >
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="text-gray-600 decoration-transparent text-lg font-semibold tracking-tighter">
-                  money back guarantee?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-500">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Veritatis eum accusamus cum delectus et dolorem praesentium.
-                  Et dolor nihil, harum maxime amet accusamus assumenda corrupti
-                  repellendus fugiat expedita aliquam asperiores.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
+            {data.map((item) => (
+              <Accordion
+                key={item.id}
+                type="single"
+                collapsible
+              >
+                <AccordionItem value="item-1">
+                  <AccordionTrigger className="text-gray-600 decoration-transparent text-lg font-semibold tracking-tighter">
+                    {item.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-500">
+                    {item.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            ))}
           </div>
         </div>
       </div>
