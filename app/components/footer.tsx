@@ -4,6 +4,7 @@ import {
   IconBrandGithub,
   IconBrandLinkedin,
 } from "@irsyadadl/paranoid";
+
 import Link from "next/link";
 export default function footer() {
   return (

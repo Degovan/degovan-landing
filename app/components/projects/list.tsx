@@ -1,27 +1,15 @@
 "use client";
-import { useEffect, useState } from "react";
+
+import { useEffect } from "react";
+import { useStore } from "@/store";
 import Card from "@/app/components/projects/list/card";
-type Portfolio = {
-  name: string;
-  images: string;
-};
 
 export default function List() {
-  const [data, setData] = useState<Portfolio[]>([]);
-
-  const getData = async () => {
-    try {
-      const response = await fetch(`${process.env.API_URL}portfolios`);
-      const result = await response.json();
-      setData(result.data.portfolios);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  const { projects, fetchProjects } = useStore();
 
   useEffect(() => {
-    getData();
-  }, []);
+    fetchProjects();
+  }, [fetchProjects]);
 
   return (
     <div className="bg-white relative z-10">
@@ -37,7 +25,7 @@ export default function List() {
           </div>
         </div>
         <div className="grid break-inside-avoid overflow-hidden lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-5 lg:gap-5 gap-10 justify-center">
-          {data.map((item) => (
+          {projects.map((item) => (
             <Card
               key={item.name}
               title={item.name}

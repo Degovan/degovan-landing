@@ -5,28 +5,15 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
+import { useStore } from "@/store";
 
 export default function faq() {
-  const [data, setData] = useState<FAQ[]>([]);
-  type FAQ = {
-    id: number;
-    question: string;
-    answer: string;
-  };
-  const getData = async () => {
-    try {
-      const response = await fetch(`${process.env.API_URL}faqs`);
-      const result = await response.json();
-      setData(result.data.faqs);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  const { faq, fetchFAQs } = useStore();
 
   useEffect(() => {
-    getData();
-  }, []);
+    fetchFAQs();
+  }, [fetchFAQs]);
 
   return (
     <div className="w-full border-t-2 border-dashed  bg-[#F6F9FC] relative">
@@ -51,7 +38,7 @@ export default function faq() {
             </p>
           </div>
           <div className="px-5">
-            {data.map((item) => (
+            {faq.map((item) => (
               <Accordion
                 key={item.id}
                 type="single"

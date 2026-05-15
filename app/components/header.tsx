@@ -2,14 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { HeaderProps } from "../utils/menu";
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { IconBarsThree } from "@irsyadadl/paranoid";
 
 const Header: React.FC<HeaderProps> = ({ logo, menu }) => {

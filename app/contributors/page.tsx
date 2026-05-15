@@ -1,6 +1,5 @@
-import React from "react";
-import Hero from "../components/contributors/hero";
-import Team from "../components/contributors/team";
+import { Hero, Team } from "@/app/components/contributors";
+
 export default function page() {
   return (
     <div>

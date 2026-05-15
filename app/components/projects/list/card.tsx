@@ -28,7 +28,12 @@ export default function card({
         </h2>
         <p className="text-gray-400  text-sm">{description}</p>
         <div className="transition-all duration-300 absolute group-hover:translate-y-0 opacity-0 group-hover:opacity-100 group-hover:relative transform translate-y-2">
-          <button className="text-primary">Visit site</button>
+          <button
+            aria-label="Visit site"
+            className="text-primary"
+          >
+            Visit site
+          </button>
         </div>
       </div>
     </div>

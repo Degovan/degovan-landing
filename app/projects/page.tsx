@@ -1,6 +1,5 @@
-import React from "react";
-import Hero from "../components/projects/hero";
-import List from "../components/projects/list";
+import { Hero, List } from "@/app/components/projects";
+
 export default function page() {
   return (
     <div>
