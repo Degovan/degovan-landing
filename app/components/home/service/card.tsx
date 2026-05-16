@@ -23,12 +23,12 @@ export default function card({
         <div className="blur-lg transition-opacity duration-500 group-hover:opacity-50 opacity-0  absolute bg-gradient-to-tr rounded-full top-11 right-8 from-secondary via-yellow-600 to-primary w-[100px] h-[100px]"></div>
       </div>
       <div className="p-5 relative z-10 space-y-3 duration-300 transition-transform  bg-white transform -translate-y-1 group-hover:-translate-y-8">
-        <h2 className="font-semibold tracking-tighter lg:text-2xl text-xl text-gray-600">
+        <h2 className="font-semibold tracking-tighter lg:text-xl text-xl text-gray-600">
           {title}
         </h2>
         <p className="text-gray-400  text-sm">{description}</p>
         <div className="transition-all duration-300 absolute group-hover:translate-y-0 opacity-0 group-hover:opacity-100 group-hover:relative transform translate-y-2">
-          <button className="text-primary">Learn more</button>
+          <button className="text-primary">Pelajari lebih lanjut</button>
         </div>
       </div>
     </div>

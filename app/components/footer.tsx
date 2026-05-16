@@ -26,8 +26,8 @@ export default function footer() {
             </div>
             <div className="space-y-5">
               <p className="max-w-sm text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Dignissimos quidem earum officia.
+                Mewujudkan ide digital Anda menjadi kenyataan dengan solusi
+                teknologi yang inovatif dan berkualitas.
               </p>
             </div>
             <div className="text-gray-400 flex gap-5">
@@ -48,76 +48,76 @@ export default function footer() {
           <div className="w-full flex justify-between gap-5 p-5">
             <div className="">
               <h3 className="font-semibold tracking-tighter text-white">
-                Index
+                Indeks
               </h3>
               <div className="space-y-2 mt-5 text-gray-400 text-sm">
                 <Link
                   className="block"
                   href=""
                 >
-                  Home
+                  Beranda
                 </Link>
                 <Link
                   className="block"
                   href=""
                 >
-                  How we work
+                  Cara Kerja Kami
                 </Link>
                 <Link
                   className="block"
                   href=""
                 >
-                  Projects
+                  Proyek
                 </Link>
                 <Link
                   className="block"
                   href=""
                 >
-                  Contributors
+                  Kontributor
                 </Link>
               </div>
             </div>
             <div>
               <h3 className="font-semibold tracking-tighter text-white">
-                Additional
+                Tambahan
               </h3>
               <div className="space-y-2 mt-5 text-gray-400 text-sm">
                 <Link
                   className="block"
                   href=""
                 >
-                  Articles
+                  Artikel
                 </Link>
                 <Link
                   target="_blank"
                   className="block"
                   href="http://wa.me/6282335623028"
                 >
-                  Call us (Whatsapp)
+                  Hubungi Kami (Whatsapp)
                 </Link>
                 <Link
                   className="block"
                   href=""
                 >
-                  Templates
+                  Template
                 </Link>
                 <Link
                   className="block"
                   href=""
                 >
-                  Testimonial
+                  Testimoni
                 </Link>
                 <Link
                   className="block"
                   href=""
                 >
-                  Privacy
+                  Privasi
                 </Link>
                 <Link
                   className="block"
                   href=""
                 >
-                  Term
+                  Ketentuan
                 </Link>
               </div>
             </div>
@@ -125,19 +125,21 @@ export default function footer() {
           </div>
           <div className="w-full space-y-5 p-5">
             <div className="space-y-3">
-              <p className="text-primary">Information</p>
+              <p className="text-primary">Informasi</p>
               <h1 className="font-bold text-3xl max-w-sm tracking-tighter text-white">
                 {" "}
-                Let's make your ideas happens with us
+                Mari wujudkan ide Anda bersama kami
               </h1>
             </div>
-            <button className="btn bg-primary text-white">Work with us</button>
+            <button className="btn bg-primary text-white">
+              Bekerja dengan Kami
+            </button>
             <div className="space-y-2">
               <p className="text-gray-500 text-xs">
-                Copyright © Degovan Inc. 2021 - 2024. All rights reserved
+                Hak Cipta © Degovan Inc. 2021 - 2024. Semua hak dilindungi
               </p>
               <p className="text-gray-500 text-xs">
-                All design and code by Sesepuh Degovan.
+                Semua desain dan kode oleh Sesepuh Degovan.
               </p>
             </div>
           </div>

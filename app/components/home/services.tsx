@@ -3,22 +3,28 @@ import Card from "@/app/components/home/service/card";
 export default function Services() {
   const services = [
     {
-      title: "Web Development",
+      title: "Pengembangan Web",
       img: "./assets/card/web-transparent.png",
       description:
-        "We build websites that are functional, beautiful, and easy to use.",
+        "Kami membangun website yang fungsional, indah, dan mudah digunakan.",
     },
     {
-      title: "Mobile Development",
+      title: "Pengembangan Mobile",
       img: "./assets/card/mobile-transparent.png",
       description:
-        "We build websites that are functional, beautiful, and easy to use.",
+        "Kami membangun aplikasi mobile yang fungsional, indah, dan mudah digunakan.",
     },
     {
-      title: "UI / UX Design",
-      img: "./assets/card/mobile-transparent.png",
+      title: "Desain UI / UX",
+      img: "./assets/card/ui-ux.png",
       description:
-        "We build websites that are functional, beautiful, and easy to use.",
+        "Kami menciptakan desain yang menarik dan pengalaman pengguna yang optimal.",
+    },
+    {
+      title: "Backend & API",
+      img: "./assets/card/backend-api.png",
+      description:
+        "Kami menciptakan desain yang menarik dan pengalaman pengguna yang optimal.",
     },
   ];
 
@@ -32,13 +38,14 @@ export default function Services() {
           </div>
           <div className="pl-4 space-y-5">
             <h2 className="font-bold tracking-tighter lg:text-4xl text-3xl lg:max-w-sm max-w-xs text-gray-600">
-              The services we offer to you
+              Layanan yang kami tawarkan untuk Anda
             </h2>
             <p className="text-gray-400 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Kami menyediakan berbagai layanan pengembangan digital yang
+              dirancang untuk membantu bisnis Anda tumbuh dan berkembang. Dari
+              pembuatan website hingga aplikasi mobile, kami siap mewujudkan
+              visi digital Anda dengan solusi yang inovatif dan berkualitas
+              tinggi.
             </p>
           </div>
         </div>

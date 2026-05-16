@@ -66,3 +66,27 @@
     -webkit-text-stroke: 4px black;
   }
 }
+@keyframes dash {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+.marker-label {
+  position: absolute;
+  bottom: anchor(top);
+  left: anchor(center);
+  translate: -50% 0;
+  margin-bottom: 8px;
+  padding: 0.25rem 0.5rem;
+  background: #1a1a1a;
+  color: #fff;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}

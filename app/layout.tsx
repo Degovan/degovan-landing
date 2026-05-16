@@ -7,8 +7,9 @@ const lexend = Lexend({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "Degovan - We commit to your work and your business as digital development.",
-  description: "Ready to discuss with us? Let's commit to your project.",
+    "Degovan - Kami berkomitmen pada pekerjaan dan bisnis Anda sebagai pengembangan digital.",
+  description:
+    "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
 };
 
 export default function RootLayout({
@@ -18,24 +19,24 @@ export default function RootLayout({
 }>) {
   const menuItem = [
     {
-      label: "Home",
+      label: "Beranda",
       path: "/",
     },
     {
-      label: "How we work",
+      label: "Cara Kerja Kami",
       path: "/how-we-work",
     },
     {
-      label: "Projects",
+      label: "Proyek",
       path: "/projects",
     },
     {
-      label: "Contributors",
+      label: "Kontributor",
       path: "/contributors",
     },
   ];
   return (
-    <html lang="en">
+    <html lang="id">
       <body className={`antialiased ${lexend.className}`}>
         <Header
           logo="./assets/logo/logo.png"

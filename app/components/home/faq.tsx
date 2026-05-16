@@ -28,13 +28,13 @@ export default function faq() {
           </div>
           <div className="pl-4 space-y-5">
             <h2 className="font-bold tracking-tighter lg:text-4xl text-3xl lg:max-w-sm max-w-xs text-gray-700">
-              Frequently Asked Questions
+              Pertanyaan yang Sering Diajukan
             </h2>
             <p className="text-gray-400 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Temukan jawaban atas pertanyaan umum tentang layanan kami. Jika
+              Anda memiliki pertanyaan lain yang tidak tercantum di sini, jangan
+              ragu untuk menghubungi kami dan tim kami akan dengan senang hati
+              membantu Anda.
             </p>
           </div>
           <div className="px-5">

@@ -11,13 +11,12 @@ export default function client() {
           </div>
           <div className="pl-4 space-y-5">
             <h2 className="font-bold tracking-tighter lg:text-4xl text-3xl lg:max-w-sm max-w-xs text-gray-600">
-              These are clients who work and trust with us
+              Klien yang bekerja dan mempercayai kami
             </h2>
             <p className="text-gray-400 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Kami bangga telah dipercaya oleh berbagai perusahaan dan
+              organisasi untuk mengembangkan solusi digital mereka. Kepercayaan
+              mereka adalah motivasi kami untuk terus memberikan yang terbaik.
             </p>
           </div>
         </div>

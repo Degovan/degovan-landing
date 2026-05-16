@@ -34,7 +34,7 @@ export default function card({
         </button>
         <p className="text-gray-400  text-sm">{quote}</p>
         <div className="transition-all duration-300 absolute group-hover:translate-y-0 opacity-0 group-hover:opacity-100 group-hover:relative transform translate-y-2">
-          <button className="text-primary">See profile</button>
+          <button className="text-primary">Lihat profil</button>
         </div>
       </div>
     </div>

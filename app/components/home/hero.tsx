@@ -9,18 +9,20 @@ export default function hero() {
               <div className="flex justify-center">
                 <div className="space-y-5">
                   <span className="text-primary lg:text-base text-sm  border border-primary/50 rounded-full px-5 py-1 text-center">
-                    Tal'k is cheap show us your ideas 🧠
+                    Bicara itu mudah, tunjukkan ide Anda 🧠
                   </span>
                   <h2 className="lg:text-6xl text-4xl font-semibold text-center mx-auto tracking-tighter text-gray-700 max-w-sm lg:max-w-2xl">
-                    <span className="text-primary relative">We develop</span>{" "}
-                    and commit to your ideas.
+                    <span className="text-primary relative">
+                      Kami mengembangkan
+                    </span>{" "}
+                    dan berkomitmen pada ide Anda.
                   </h2>
                 </div>
               </div>
 
               <div className="flex gap-5 justify-center">
                 <button className="btn lg:text-lg text-sm flex gap-3 items-center bg-secondary text-white">
-                  Let's make it happens <IconRocket />
+                  Mari wujudkan bersama <IconRocket />
                 </button>
               </div>
             </div>

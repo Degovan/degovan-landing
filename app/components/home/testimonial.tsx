@@ -7,17 +7,16 @@ export default function testimonial() {
         <div className="space-y-5 lg:p-0 p-8 ">
           <div className="text-primary flex items-center gap-4">
             <div className="w-1 h-4 lg:-ml-0.5 ml-4 bg-primary"></div>
-            <p>Testimonial</p>
+            <p>Testimonials</p>
           </div>
           <div className="pl-4 space-y-5">
             <h2 className="font-bold tracking-tighter lg:text-4xl text-3xl lg:max-w-sm max-w-xs text-gray-600">
-              What our clients and customers have to say
+              Apa kata klien dan pelanggan kami
             </h2>
             <p className="text-gray-400 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Dengarkan langsung dari klien kami tentang pengalaman mereka
+              bekerja sama dengan Degovan. Kepercayaan dan kepuasan mereka
+              adalah bukti komitmen kami dalam memberikan layanan terbaik.
             </p>
           </div>
         </div>
@@ -31,34 +30,34 @@ export default function testimonial() {
             <div className="ml-5 bg-white border px-5 py-5 max-w-[450px] rounded-[10px] ">
               <p className="text-gray-500 text-sm mb-8">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                dolor, quod quasi voluptate ex quaerat magni.
+                Bekerja dengan Degovan adalah pengalaman yang luar biasa. Tim
+                mereka sangat profesional dan responsif terhadap kebutuhan kami.
               </p>
               <div className="flex gap-3 justify-start items-center">
                 <div className="w-10 h-10 rounded-full bg-gray-200 "></div>
-                <p>John Doe</p>
+                <p>Budi Santoso</p>
               </div>
             </div>
             <div className="ml-5 bg-white border px-5 py-5 max-w-[450px] rounded-[10px] ">
               <p className="text-gray-500 text-sm  mb-8">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                dolor, quod quasi voluptate ex quaerat magni.
+                Hasil kerja mereka melampaui ekspektasi kami. Website yang
+                dibuat sangat fungsional dan menarik secara visual.
               </p>
               <div className="flex gap-3 justify-start items-center">
                 <div className="w-10 h-10 rounded-full bg-gray-200 "></div>
-                <p>John Doe</p>
+                <p>Siti Nurhaliza</p>
               </div>
             </div>
             <div className="ml-5 bg-white border px-5 py-5 max-w-[450px] rounded-[10px] ">
               <p className="text-gray-500 text-sm  mb-8">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                dolor, quod quasi voluptate ex quaerat magni.
+                Sangat puas dengan layanan yang diberikan. Proses pengembangan
+                berjalan lancar dan tepat waktu.
               </p>
               <div className="flex gap-3 justify-start items-center">
                 <div className="w-10 h-10 rounded-full bg-gray-200 "></div>
-                <p>John Doe</p>
+                <p>Ahmad Wijaya</p>
               </div>
             </div>
           </Marquee>
@@ -72,30 +71,30 @@ export default function testimonial() {
             <div className="ml-5 bg-white border px-5 py-5 max-w-[450px] rounded-[10px] ">
               <p className="text-gray-500 text-sm mb-8">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                dolor, quod quasi voluptate ex quaerat magni.
+                Tim Degovan sangat memahami kebutuhan bisnis kami dan memberikan
+                solusi yang tepat sasaran.
               </p>
               <div className="flex gap-3 justify-start items-center">
                 <div className="w-10 h-10 rounded-full bg-gray-200 "></div>
-                <p>John Doe</p>
+                <p>Rina Kusuma</p>
               </div>
             </div>
             <div className="ml-5 bg-white border px-5 py-5 max-w-[450px] rounded-[10px] ">
               <p className="text-gray-500 text-sm  mb-8">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                dolor, quod quasi voluptate ex quaerat magni.
+                Kualitas pekerjaan yang sangat baik dengan harga yang
+                kompetitif. Sangat direkomendasikan!
               </p>
               <div className="flex gap-3 justify-start items-center">
                 <div className="w-10 h-10 rounded-full bg-gray-200 "></div>
-                <p>John Doe</p>
+                <p>Dedi Prasetyo</p>
               </div>
             </div>
             <div className="ml-5 bg-white border px-5 py-5 max-w-[450px] rounded-[10px] ">
               <p className="text-gray-500 text-sm  mb-8">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                dolor, quod quasi voluptate ex quaerat magni.
+                Komunikasi yang baik dan hasil yang memuaskan. Terima kasih
+                Degovan!
               </p>
               <div className="flex gap-3 justify-start items-center">
                 <div className="w-10 h-10 rounded-full bg-gray-200 "></div>
@@ -113,34 +112,34 @@ export default function testimonial() {
             <div className="ml-5 bg-white border px-5 py-5 max-w-[450px] rounded-[10px] ">
               <p className="text-gray-500 text-sm mb-8">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                dolor, quod quasi voluptate ex quaerat magni.
+                Bekerja dengan Degovan adalah pengalaman yang luar biasa. Tim
+                mereka sangat profesional dan responsif terhadap kebutuhan kami.
               </p>
               <div className="flex gap-3 justify-start items-center">
                 <div className="w-10 h-10 rounded-full bg-gray-200 "></div>
-                <p>John Doe</p>
+                <p>Budi Santoso</p>
               </div>
             </div>
             <div className="ml-5 bg-white border px-5 py-5 max-w-[450px] rounded-[10px] ">
               <p className="text-gray-500 text-sm  mb-8">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                dolor, quod quasi voluptate ex quaerat magni.
+                Hasil kerja mereka melampaui ekspektasi kami. Website yang
+                dibuat sangat fungsional dan menarik secara visual.
               </p>
               <div className="flex gap-3 justify-start items-center">
                 <div className="w-10 h-10 rounded-full bg-gray-200 "></div>
-                <p>John Doe</p>
+                <p>Siti Nurhaliza</p>
               </div>
             </div>
             <div className="ml-5 bg-white border px-5 py-5 max-w-[450px] rounded-[10px] ">
               <p className="text-gray-500 text-sm  mb-8">
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                dolor, quod quasi voluptate ex quaerat magni.
+                Sangat puas dengan layanan yang diberikan. Proses pengembangan
+                berjalan lancar dan tepat waktu.
               </p>
               <div className="flex gap-3 justify-start items-center">
                 <div className="w-10 h-10 rounded-full bg-gray-200 "></div>
-                <p>John Doe</p>
+                <p>Ahmad Wijaya</p>
               </div>
             </div>
           </Marquee>

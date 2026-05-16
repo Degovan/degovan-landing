@@ -31,10 +31,7 @@ export default function list() {
         <div className="space-y-5 lg:p-0 p-8 ">
           <div className="pl-4 space-y-5">
             <p className="text-gray-400 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Berkenalan dengan individu-individu berbakat dan berdedikasi di balik kesuksesan setiap proyek kami. Bersama-sama, kami menggabungkan keahlian dan kreativitas untuk memberikan hasil terbaik yang berdampak nyata bagi klien kami.
             </p>
           </div>
         </div>

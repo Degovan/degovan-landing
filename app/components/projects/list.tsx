@@ -1,15 +1,10 @@
 "use client";
 
-import { useEffect } from "react";
 import { useStore } from "@/store";
 import Card from "@/app/components/projects/list/card";
 
 export default function List() {
-  const { projects, fetchProjects } = useStore();
-
-  useEffect(() => {
-    fetchProjects();
-  }, [fetchProjects]);
+  const { projects } = useStore();
 
   return (
     <div className="bg-white relative z-10">
@@ -17,10 +12,10 @@ export default function List() {
         <div className="space-y-5 lg:p-0 p-8 ">
           <div className="pl-4 space-y-5">
             <p className="text-gray-400 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Jelajahi portofolio proyek kami yang telah berhasil diselesaikan.
+              Setiap proyek mencerminkan dedikasi kami dalam memberikan solusi
+              digital berkualitas tinggi yang memenuhi kebutuhan klien dan
+              melampaui ekspektasi mereka.
             </p>
           </div>
         </div>
@@ -30,7 +25,7 @@ export default function List() {
               key={item.name}
               title={item.name}
               img={item.images}
-              description="lorem "
+              description="Deskripsi proyek akan segera diperbarui."
             />
           ))}
         </div>

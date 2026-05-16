@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = ({ logo, menu }) => {
             ))}
             <li>
               <button className="px-5 py-2 rounded-md  border uppercase text-sm shadow text-gray-600 font-medium">
-                Let's talk
+                Mari Bicara
               </button>
             </li>
             <li className="lg:hidden flex">

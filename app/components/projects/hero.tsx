@@ -19,12 +19,12 @@ export default function hero() {
                     <span className="text-primary lg:text-base text-sm rounded-full  ">
                       Our Projects
                     </span>
-                    <h2 className="lg:text-6xl text-4xl uppercase font-bold text-center tracking-tighter max-w-lg leading-normal text-gray-700  ">
-                      Many projects we have done
+                    <h2 className="lg:text-6xl text-4xl uppercase font-bold text-center tracking-tighter max-w-3xl leading-normal text-gray-700  ">
+                      Banyak proyek telah kami selesaikan
                     </h2>
                   </div>
                   <button className="text-lg flex gap-3 items-center mx-auto text-secondary">
-                    Scroll down{" "}
+                    Gulir ke bawah{" "}
                     <span className="animate-bounce">
                       <IconMouse />
                     </span>
@@ -34,7 +34,7 @@ export default function hero() {
             </div>
           </div>
           <h1 className="absolute bottom-0 lg:block hidden text-[15rem] -mb-28 opacity-35 tracking-tighter font-bold font-outline-2 text-transparent">
-            PROJECTS
+            PROYEK
           </h1>
         </div>
       </div>
