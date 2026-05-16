@@ -20,7 +20,7 @@ export default function testimonial() {
             </p>
           </div>
         </div>
-        <div className="p-5">
+        <div className="p-5 border-t">
           <Marquee
             gradient={true}
             speed={50}

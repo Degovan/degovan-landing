@@ -17,7 +17,7 @@ export default function Home() {
       <Statisfied />
       {/* <Client /> */}
       <Testimonial />
-      {/* <Faq /> */}
+      <Faq />
     </div>
   );
 }

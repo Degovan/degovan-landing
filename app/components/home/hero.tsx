@@ -1,13 +1,15 @@
 import { IconRocket } from "@irsyadadl/paranoid";
 export default function hero() {
   return (
-    <div>
+    <div className="relative">
       <div className="bg-gradient-to-t from-slate-200 to-white">
+        <div className="absolute inset-0 -z-10  bg-[linear-gradient(rgba(246,157,17,0.05)_1px,transparent_1px),linear-gradient(to_right,rgba(246,157,17,0.05)_1px,transparent_1px)] bg-[size:40px_40px]" />
         <div className="border-r-2 border-dashed border-l container max-w-7xl  mx-auto grid grid-cols-1 gap-5 justify-center items-center w-full h-[700px]">
           <div>
             <div className="text-center space-y-8">
               <div className="flex justify-center">
                 <div className="space-y-5">
+                  <div className="absolute inset-0 -z-10  bg-[linear-gradient(rgba(246,157,17,0.05)_1px,transparent_1px),linear-gradient(to_right,rgba(246,157,17,0.05)_1px,transparent_1px)] bg-[size:40px_40px]" />
                   <span className="text-primary lg:text-base text-sm  border border-primary/50 rounded-full px-5 py-1 text-center">
                     Bicara itu mudah, tunjukkan ide Anda 🧠
                   </span>

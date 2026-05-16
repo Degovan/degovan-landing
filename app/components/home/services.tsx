@@ -49,7 +49,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="grid break-inside-avoid overflow-hidden lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-5 lg:gap-5 gap-10 justify-center">
+        <div className="grid border-t break-inside-avoid overflow-hidden lg:grid-cols-4 md:grid-cols-2 grid-cols-1 p-5 lg:gap-5 gap-10 justify-center">
           {services.map((service) => (
             <Card
               key={service.title}
