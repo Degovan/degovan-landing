@@ -23,7 +23,7 @@ export default function hero() {
               </div>
 
               <div className="flex gap-5 justify-center">
-                <button className="btn lg:text-lg text-sm flex gap-3 items-center bg-secondary text-white">
+                <button className="btn text-sm flex gap-3 items-center bg-secondary text-white">
                   Mari wujudkan bersama <IconRocket />
                 </button>
               </div>

@@ -1,7 +1,13 @@
+"use client";
+
 import { ChevronRight } from "lucide-react";
 import Marquee from "react-fast-marquee";
 import CardStack from "./clients/card-stack";
+import { useRouter } from "next/navigation";
+
 export default function whatWeDo() {
+  const router = useRouter();
+
   const stack = [
     {
       img: "./assets/logo/stack/React.png",
@@ -68,8 +74,11 @@ export default function whatWeDo() {
                 Setiap proyek dikerjakan dengan dedikasi penuh untuk memastikan
                 hasil yang melampaui ekspektasi Anda.
               </p>
-              <button className="bg-primary flex items-center text-white px-6 py-3 rounded-md hover:bg-blue-500  transition-colors">
-                Pelajari Lebih Lanjut <ChevronRight className="ml-2 " />
+              <button
+                onClick={() => router.push("/how-we-work")}
+                className="bg-primary text-sm flex items-center text-white px-6 py-3 rounded-md hover:bg-blue-500  transition-colors"
+              >
+                Pelajari Lebih Lanjut <ChevronRight className="ml-2 text-sm" />
               </button>
             </div>
           </div>

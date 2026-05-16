@@ -90,3 +90,48 @@
   pointer-events: none;
   transition: opacity 0.3s;
 }
+
+.story-swiper {
+  overflow: visible;
+}
+
+.story-slide {
+  width: calc((100% - 42px) / 4);
+  transition: width 0.45s ease;
+}
+
+.story-slide:hover {
+  width: calc((100% - 42px) / 3.2);
+}
+
+.story-swiper:hover .story-slide:not(:hover) {
+  width: calc((100% - 42px) / 4.35);
+}
+
+@media (max-width: 1024px) {
+  .story-slide {
+    width: 42%;
+  }
+
+  .story-slide:hover {
+    width: 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  .story-slide {
+    width: 82%;
+  }
+
+  .story-slide:hover {
+    width: 82%;
+  }
+}
+.story-swiper .story-slide {
+  width: 300px !important;
+  transition: width 500ms ease-out !important;
+}
+
+.story-swiper .story-slide:hover {
+  width: 600px !important;
+}

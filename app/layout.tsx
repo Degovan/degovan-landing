@@ -10,6 +10,14 @@ export const metadata: Metadata = {
     "Degovan - Kami berkomitmen pada pekerjaan dan bisnis Anda sebagai pengembangan digital.",
   description:
     "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon", type: "image/x-icon" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -25,10 +33,6 @@ export default function RootLayout({
     {
       label: "Cara Kerja Kami",
       path: "/how-we-work",
-    },
-    {
-      label: "Proyek",
-      path: "/projects",
     },
     {
       label: "Kontributor",

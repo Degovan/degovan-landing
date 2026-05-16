@@ -5,5 +5,15 @@ import Statisfied from "@/app/components/home/statisfied";
 import Client from "@/app/components/home/client";
 import Testimonial from "@/app/components/home/testimonial";
 import Faq from "@/app/components/home/faq";
+import Projects from "./home/project";
 
-export { Hero, WhatWeDo, Services, Statisfied, Client, Testimonial, Faq };
+export {
+  Hero,
+  WhatWeDo,
+  Services,
+  Statisfied,
+  Client,
+  Testimonial,
+  Faq,
+  Projects,
+};

@@ -95,7 +95,7 @@ export default function faq() {
                 collapsible
               >
                 <AccordionItem value="item-1">
-                  <AccordionTrigger className="text-gray-600 decoration-transparent text-lg font-semibold tracking-tighter">
+                  <AccordionTrigger className="text-gray-600 text-left decoration-transparent text-lg font-semibold tracking-tighter">
                     {item.question}
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-500">

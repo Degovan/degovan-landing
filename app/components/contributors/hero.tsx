@@ -4,10 +4,10 @@ export default function Hero() {
   return (
     <div className="bg-[#F6F9FC] relative">
       <h1 className="absolute left-72 lg:block hidden text-[15rem] -mb-11 opacity-20 tracking-tighter font-bold font-outline-2 text-transparent">
-        TIM
+        GENERALIST
       </h1>
       <h1 className="absolute top-48 right-0 lg:block hidden text-[15rem] -mb-28 opacity-35 tracking-tighter font-bold font-outline-2 text-transparent">
-        SPESIALIS
+        DEVELOPER
       </h1>
       <div className="border-r-2 relative border-dashed border-l-2 container max-w-7xl  mx-auto grid grid-cols-1 gap-5 justify-start items-center w-full h-[700px]">
         <div>
@@ -33,7 +33,7 @@ export default function Hero() {
           </div>
         </div>
         <h1 className="absolute bottom-0 text-[15rem] lg:block hidden -mb-28 opacity-35 tracking-tighter font-bold font-outline-2 text-transparent">
-          ENGINEER
+          SPESIALIST
         </h1>
       </div>
     </div>
