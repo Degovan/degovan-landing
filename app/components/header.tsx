@@ -4,12 +4,18 @@ import Link from "next/link";
 import { HeaderProps } from "../utils/menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { IconBarsThree } from "@irsyadadl/paranoid";
+import DrawerHub from "./drawer-hub";
 
 const Header: React.FC<HeaderProps> = ({ logo, menu }) => {
   const [openSheet, setOpenSheet] = useState(false);
+  const [openDrawer, setOpenDrawer] = useState(false);
 
   return (
     <div className="w-full sticky top-0 bg-white border-b z-40">
+      <DrawerHub
+        isOpen={openDrawer}
+        onOpenChange={setOpenDrawer}
+      />
       <div className="container max-w-7xl  py-4 px-3 mx-auto border-r-2 border-dashed flex items-center justify-between">
         <div className="flex gap-3 items-center">
           <img
@@ -37,7 +43,10 @@ const Header: React.FC<HeaderProps> = ({ logo, menu }) => {
               </li>
             ))}
             <li>
-              <button className="px-5 py-2 rounded-md  border uppercase text-sm shadow text-gray-600 font-medium">
+              <button
+                className="px-5 py-2 rounded-md  border uppercase text-sm shadow text-gray-600 font-medium"
+                onClick={() => setOpenDrawer(true)}
+              >
                 Mari Bicara
               </button>
             </li>

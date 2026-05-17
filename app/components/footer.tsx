@@ -31,16 +31,28 @@ export default function footer() {
               </p>
             </div>
             <div className="text-gray-400 flex gap-5">
-              <Link href="">
+              <Link
+                href="https://www.instagram.com/degovan.it/"
+                target="_blank"
+              >
                 <IconBrandInstagram />
               </Link>
-              <Link href="">
+              <Link
+                href="http://wa.me/6282335623028"
+                target="_blank"
+              >
                 <IconBrandWhatsapp />
               </Link>
-              <Link href="">
+              <Link
+                href="https://github.com/Degovan"
+                target="_blank"
+              >
                 <IconBrandGithub />
               </Link>
-              <Link href="">
+              <Link
+                href="https://id.linkedin.com/company/degovan"
+                target="_blank"
+              >
                 <IconBrandLinkedin />
               </Link>
             </div>
@@ -53,25 +65,19 @@ export default function footer() {
               <div className="space-y-2 mt-5 text-gray-400 text-sm">
                 <Link
                   className="block"
-                  href=""
+                  href="/"
                 >
                   Beranda
                 </Link>
                 <Link
                   className="block"
-                  href=""
+                  href="/how-we-work"
                 >
                   Cara Kerja Kami
                 </Link>
                 <Link
                   className="block"
-                  href=""
-                >
-                  Proyek
-                </Link>
-                <Link
-                  className="block"
-                  href=""
+                  href="/contributors"
                 >
                   Kontributor
                 </Link>
@@ -136,7 +142,7 @@ export default function footer() {
             </button>
             <div className="space-y-2">
               <p className="text-gray-500 text-xs">
-                Hak Cipta © Degovan Inc. 2021 - 2024. Semua hak dilindungi
+                Hak Cipta © Degovan 2021 - 2026. All rights reserved.
               </p>
               <p className="text-gray-500 text-xs">
                 Semua desain dan kode oleh Sesepuh Degovan.
