@@ -18,7 +18,20 @@ export const metadata: Metadata = {
       "Kenali tim web developer dan kontributor Degovan yang berpengalaman dalam jasa pembuatan website, landing page, dan solusi digital untuk bisnis.",
     images: [
       {
-        url: "/assets/logo/logo.png",
+        url: "/assets/logo/image-og.png",
+        width: 512,
+        height: 512,
+        alt: "Logo Degovan",
+      },
+    ],
+  },
+  twitter: {
+    title: "Tim Web Developer & Kontributor Website Profesional - Degovan",
+    description:
+      "Kenali tim web developer dan kontributor Degovan yang berpengalaman dalam jasa pembuatan website, landing page, dan solusi digital untuk bisnis.",
+    images: [
+      {
+        url: "/assets/logo/image-og.png",
         width: 512,
         height: 512,
         alt: "Logo Degovan",

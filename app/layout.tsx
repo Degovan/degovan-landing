@@ -26,11 +26,27 @@ export const metadata: Metadata = {
     title: " Jasa Pembuatan Website & Pengembangan Website - Degovan",
     description:
       "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
+    images: [
+      {
+        url: "/assets/logo/image-og.png",
+        width: 512,
+        height: 512,
+        alt: "Logo Degovan",
+      },
+    ],
   },
   twitter: {
     title: "Jasa Pembuatan Website & Pengembangan Website - Degovan",
     description:
       "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
+    images: [
+      {
+        url: "/assets/logo/image-og.png",
+        width: 512,
+        height: 512,
+        alt: "Logo Degovan",
+      },
+    ],
   },
 };
 

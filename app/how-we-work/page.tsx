@@ -19,7 +19,20 @@ export const metadata: Metadata = {
       "Pelajari alur kerja jasa pembuatan website dan pengembangan website Degovan, dari riset kebutuhan bisnis hingga website siap pakai dan terukur.",
     images: [
       {
-        url: "/assets/logo/logo.png",
+        url: "/assets/logo/image-og.png",
+        width: 512,
+        height: 512,
+        alt: "Logo Degovan",
+      },
+    ],
+  },
+  twitter: {
+    title: "Cara Kerja Jasa Pengembangan Website Profesional - Degovan",
+    description:
+      "Pelajari alur kerja jasa pembuatan website dan pengembangan website Degovan, dari riset kebutuhan bisnis hingga website siap pakai dan terukur.",
+    images: [
+      {
+        url: "/assets/logo/image-og.png",
         width: 512,
         height: 512,
         alt: "Logo Degovan",
