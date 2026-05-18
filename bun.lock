@@ -4,6 +4,7 @@
     "": {
       "name": "degovan",
       "dependencies": {
+        "@iconify/react": "^6.0.2",
         "@irsyadadl/paranoid": "^1.4.8",
         "@lottiefiles/dotlottie-react": "^0.19.2",
         "@radix-ui/react-accordion": "^1.2.0",
@@ -44,6 +45,10 @@
     "@alloc/quick-lru": ["@alloc/quick-lru@5.2.0", "", {}, "sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw=="],
 
     "@babel/runtime": ["@babel/runtime@7.29.2", "", {}, "sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g=="],
+
+    "@iconify/react": ["@iconify/react@6.0.2", "", { "dependencies": { "@iconify/types": "^2.0.0" }, "peerDependencies": { "react": ">=16" } }, "sha512-SMmC2sactfpJD427WJEDN6PMyznTFMhByK9yLW0gOTtnjzzbsi/Ke/XqsumsavFPwNiXs8jSiYeZTmLCLwO+Fg=="],
+
+    "@iconify/types": ["@iconify/types@2.0.0", "", {}, "sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg=="],
 
     "@irsyadadl/paranoid": ["@irsyadadl/paranoid@1.4.12", "", { "dependencies": { "@babel/runtime": "^7.24.7" }, "peerDependencies": { "react": "^16 || ^17 || ^18" } }, "sha512-6g6v7479/ThYJ71aoddNdx38gpkHNvCHWtuykttJVGDqaa6zj0sQ5VgvT8QRLNbd7MMlscT9ndSBF7IINDuydA=="],
 

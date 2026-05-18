@@ -34,7 +34,7 @@ export default function whatWeDo() {
       name: "TypeScript",
     },
     {
-      img: "./assets/logo/stack/MYSQL.png",
+      img: "./assets/logo/stack/mysql.png",
       name: "MYSQL",
     },
     {
@@ -78,7 +78,11 @@ export default function whatWeDo() {
                 onClick={() => router.push("/how-we-work")}
                 className="bg-primary text-sm flex items-center text-white px-6 py-3 rounded-md hover:bg-blue-500  transition-colors"
               >
-                Pelajari Lebih Lanjut <ChevronRight className="ml-2 text-sm" />
+                Pelajari Lebih Lanjut{" "}
+                <ChevronRight
+                  size={15}
+                  className="ml-2 text-sm"
+                />
               </button>
             </div>
           </div>
