@@ -1,3 +1,5 @@
+"use client";
+
 import {
   IconBrandInstagram,
   IconBrandWhatsapp,
@@ -5,10 +7,19 @@ import {
   IconBrandLinkedin,
 } from "@irsyadadl/paranoid";
 
+import DrawerHub from "./drawer-hub";
+
+import { useState } from "react";
 import Link from "next/link";
-export default function footer() {
+export default function Footer() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div>
+      <DrawerHub
+        isOpen={isOpen}
+        onOpenChange={setIsOpen}
+      />
       <div className="border-t w-full relative bg-[#0A2540]">
         <div className="relative z-10 max-w-7xl container pt-20 mx-auto flex lg:flex-row flex-col border-gray-700 border-l-2 border-r-2 border-dashed  gap-5 justify-between items-center  space-y-8 w-full lg:h-[40vh]">
           <div className="p-5 space-y-5 w-full">
@@ -137,7 +148,10 @@ export default function footer() {
                 Mari wujudkan ide Anda bersama kami
               </h1>
             </div>
-            <button className="btn bg-primary text-white">
+            <button
+              onClick={(e) => setIsOpen(true)}
+              className="btn bg-primary text-white"
+            >
               Bekerja dengan Kami
             </button>
             <div className="space-y-2">

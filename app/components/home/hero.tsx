@@ -13,7 +13,7 @@ export default function hero() {
                   <span className="text-primary lg:text-base text-sm  border border-primary/50 rounded-full px-5 py-1 text-center">
                     Bicara itu mudah, tunjukkan ide Anda 🧠
                   </span>
-                  <h2 className="lg:text-6xl text-4xl font-semibold text-center mx-auto tracking-tighter text-gray-700 max-w-sm lg:max-w-2xl">
+                  <h2 className="lg:text-6xl text-3xl font-semibold text-center mx-auto tracking-tighter text-gray-700 max-w-sm lg:max-w-2xl">
                     <span className="text-primary relative">
                       Kami mengembangkan
                     </span>{" "}
@@ -23,7 +23,7 @@ export default function hero() {
               </div>
 
               <div className="flex gap-5 justify-center">
-                <button className="btn text-sm flex gap-3 items-center bg-secondary text-white">
+                <button className="btn lg:text-sm  flex gap-3 items-center bg-secondary text-white">
                   Mari wujudkan bersama <IconRocket />
                 </button>
               </div>

@@ -3,7 +3,7 @@ import { Faq } from "@/app/components";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cara Kerja Jasa Pengembangan Website Profesional - Degovan",
+  title: "Cara Kerja Kami - Degovan",
   description:
     "Pelajari alur kerja jasa pembuatan website dan pengembangan website Degovan, dari riset kebutuhan bisnis hingga website siap pakai dan terukur.",
   keywords: [

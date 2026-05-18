@@ -1,6 +1,8 @@
+"use client";
+
 import Image from "next/image";
 
-export default function card({
+export default function Card({
   title,
   img,
   description,
@@ -9,6 +11,13 @@ export default function card({
   img: string;
   description: string;
 }) {
+  const handleSearch = ({ query }: { query: string }) => {
+    window.open(
+      `https://www.google.com/search?q=${encodeURIComponent(query)}`,
+      "_blank",
+    );
+  };
+
   return (
     <div className="card cursor-pointer p-1 lg:h-[350px] md:h-[430px]  break-inside-avoid transition-all border bg-white group overflow-hidden relative">
       <div className="p-1 overflow-hidden relative border bg-[#EFF4F8] ">
@@ -28,7 +37,12 @@ export default function card({
         </h2>
         <p className="text-gray-400  text-sm">{description}</p>
         <div className="transition-all duration-300 absolute group-hover:translate-y-0 opacity-0 group-hover:opacity-100 group-hover:relative transform translate-y-2">
-          <button className="text-primary">Pelajari lebih lanjut</button>
+          <button
+            onClick={() => handleSearch({ query: title })}
+            className="text-primary"
+          >
+            Pelajari lebih lanjut
+          </button>
         </div>
       </div>
     </div>
