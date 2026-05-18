@@ -23,12 +23,12 @@ export const metadata: Metadata = {
   applicationName: "Degovan",
   openGraph: {
     siteName: "Degovan",
-    title: "Degovan",
+    title: " Jasa Pembuatan Website & Pengembangan Website - Degovan",
     description:
       "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
   },
   twitter: {
-    title: "Degovan",
+    title: "Jasa Pembuatan Website & Pengembangan Website - Degovan",
     description:
       "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
   },
