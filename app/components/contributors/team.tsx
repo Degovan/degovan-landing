@@ -1,7 +1,7 @@
 "use client";
-import React from "react";
 import Card from "@/app/components/contributors/list/card";
-import Link from "next/link";
+import DrawerHiring from "@/app/components/drawer-hiring";
+import { useState } from "react";
 
 type Contributor = {
   name: string;
@@ -58,8 +58,13 @@ const contributors: Contributor[] = [
 ];
 
 export default function Team() {
+  const [open, setOpen] = useState(false);
   return (
     <div className="bg-white relative z-10">
+      <DrawerHiring
+        isOpen={open}
+        onOpenChange={setOpen}
+      />
       <div className="border-l  border-r container pt-20 pb-10 max-w-7xl mx-auto grid grid-cols-1 gap-5 justify-center space-y-8 w-full">
         <div className="space-y-5 lg:p-0 p-8">
           <div className="pl-4 space-y-5">
@@ -90,9 +95,7 @@ export default function Team() {
               </h2>
               <button
                 className="text-white w-full text-sm px-5 py-3 rounded-md bg-primary tracking-tighter hover:underline"
-                onClick={() =>
-                  (window.location.href = "mailto:careers@degovan.com")
-                }
+                onClick={() => setOpen(true)}
               >
                 Apply Now
               </button>

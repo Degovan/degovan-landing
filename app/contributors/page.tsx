@@ -2,7 +2,7 @@ import { Hero, Team } from "@/app/components/contributors";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Teams - Degovan",
+  title: "Kontributor",
   description:
     "Kenali tim web developer dan kontributor Degovan yang berpengalaman dalam jasa pembuatan website, landing page, dan solusi digital untuk bisnis.",
   keywords: [
