@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
     images: [
       {
-        url: "/assets/logo/image-og.png",
+        url: "https://degovan.com/assets/logo/image-og.png",
         width: 512,
         height: 512,
         alt: "Logo Degovan",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
     images: [
       {
-        url: "/assets/logo/image-og.png",
+        url: "https://degovan.com/assets/logo/image-og.png",
         width: 512,
         height: 512,
         alt: "Logo Degovan",

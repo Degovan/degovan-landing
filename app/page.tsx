@@ -37,7 +37,7 @@ export const metadata: Metadata = {
       "Degovan adalah jasa pembuatan website dan pengembangan website profesional di Indonesia untuk bisnis, UMKM, company profile, dan landing page SEO-friendly.",
     images: [
       {
-        url: "/assets/logo/logo.png",
+        url: "https://degovan.com/assets/logo/image-og.png",
         width: 512,
         height: 512,
         alt: "Logo Degovan",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
       "Degovan adalah jasa pembuatan website dan pengembangan website profesional di Indonesia untuk bisnis, UMKM, company profile, dan landing page SEO-friendly.",
     images: [
       {
-        url: "/assets/logo/logo.png",
+        url: "https://degovan.com/assets/logo/image-og.png",
         width: 512,
         height: 512,
         alt: "Logo Degovan",

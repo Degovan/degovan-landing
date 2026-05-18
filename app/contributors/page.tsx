@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Kenali tim web developer dan kontributor Degovan yang berpengalaman dalam jasa pembuatan website, landing page, dan solusi digital untuk bisnis.",
     images: [
       {
-        url: "/assets/logo/image-og.png",
+        url: "https://degovan.com/assets/logo/image-og.png",
         width: 512,
         height: 512,
         alt: "Logo Degovan",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
       "Kenali tim web developer dan kontributor Degovan yang berpengalaman dalam jasa pembuatan website, landing page, dan solusi digital untuk bisnis.",
     images: [
       {
-        url: "/assets/logo/image-og.png",
+        url: "https://degovan.com/assets/logo/image-og.png",
         width: 512,
         height: 512,
         alt: "Logo Degovan",
