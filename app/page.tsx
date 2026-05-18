@@ -30,6 +30,22 @@ export const metadata: Metadata = {
     "solusi digital untuk bisnis",
   ],
   openGraph: {
+    siteName: "Degovan",
+    title:
+      "Jasa Pembuatan Website & Pengembangan Website Profesional - Degovan",
+    description:
+      "Degovan adalah jasa pembuatan website dan pengembangan website profesional di Indonesia untuk bisnis, UMKM, company profile, dan landing page SEO-friendly.",
+    images: [
+      {
+        url: "/assets/logo/logo.png",
+        width: 512,
+        height: 512,
+        alt: "Logo Degovan",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
     title:
       "Jasa Pembuatan Website & Pengembangan Website Profesional - Degovan",
     description:

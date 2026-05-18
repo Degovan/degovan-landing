@@ -6,8 +6,10 @@ import Footer from "@/app/components/footer";
 const lexend = Lexend({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title:
-    "Degovan - Kami berkomitmen pada pekerjaan dan bisnis Anda sebagai pengembangan digital.",
+  title: {
+    default: "Degovan",
+    template: "%s - Degovan",
+  },
   description:
     "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
   icons: {
@@ -17,6 +19,18 @@ export const metadata: Metadata = {
     ],
     shortcut: "/favicon.ico",
     apple: "/favicon.ico",
+  },
+  applicationName: "Degovan",
+  openGraph: {
+    siteName: "Degovan",
+    title: "Degovan",
+    description:
+      "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
+  },
+  twitter: {
+    title: "Degovan",
+    description:
+      "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
   },
 };
 
@@ -41,6 +55,18 @@ export default function RootLayout({
   ];
   return (
     <html lang="id">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Degovan",
+            url: "https://degovan.com",
+            logo: "https://degovan.com/favicon.ico",
+          }),
+        }}
+      />
       <body className={`antialiased ${lexend.className}`}>
         <Header
           logo="./assets/logo/logo.png"
