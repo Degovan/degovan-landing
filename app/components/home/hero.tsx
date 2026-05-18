@@ -1,7 +1,17 @@
+"use client";
+
 import { IconRocket } from "@irsyadadl/paranoid";
-export default function hero() {
+import DrawerHub from "../drawer-hub";
+import { useState } from "react";
+
+export default function Hero() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="relative">
+      <DrawerHub
+        isOpen={isOpen}
+        onOpenChange={setIsOpen}
+      />
       <div className="bg-gradient-to-t from-slate-200 to-white">
         <div className="absolute inset-0 -z-10  bg-[linear-gradient(rgba(246,157,17,0.05)_1px,transparent_1px),linear-gradient(to_right,rgba(246,157,17,0.05)_1px,transparent_1px)] bg-[size:40px_40px]" />
         <div className="border-r-2 border-dashed border-l container max-w-7xl  mx-auto grid grid-cols-1 gap-5 justify-center items-center w-full h-[700px]">
@@ -23,7 +33,10 @@ export default function hero() {
               </div>
 
               <div className="flex gap-5 justify-center">
-                <button className="btn lg:text-sm  flex gap-3 items-center bg-secondary text-white">
+                <button
+                  className="btn lg:text-sm  flex gap-3 items-center bg-secondary text-white"
+                  onClick={() => setIsOpen(true)}
+                >
                   Mari wujudkan bersama <IconRocket />
                 </button>
               </div>

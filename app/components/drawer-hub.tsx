@@ -32,7 +32,7 @@ export default function DrawerHub({
             <DrawerTitle className="sr-only"></DrawerTitle>
             <DrawerDescription className="sr-only"></DrawerDescription>
             <div className="h-[200px] relative  flex flex-col  items-center justify-center gap-8">
-              <div className="absolute -top-52">
+              <div className="absolute lg:-top-52 -top-56">
                 <DotLottieReact
                   src="https://lottie.host/ffd2c99b-ab1d-439f-bed9-4fe38432cc6c/vX5tT5t7m1.lottie"
                   loop
