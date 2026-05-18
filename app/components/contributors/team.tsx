@@ -38,7 +38,7 @@ const contributors: Contributor[] = [
   {
     name: "Ahmad Irsyadulibad",
     photo: "/assets/team/irsyad.png",
-    role: "Backend & Fullstack",
+    role: "Fullstack Developer",
     socials: {
       github: "https://github.com/irsyadulibad",
       linkedin: "https://id.linkedin.com/in/irsyadulibad",
