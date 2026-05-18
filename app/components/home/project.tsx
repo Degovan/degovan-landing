@@ -124,7 +124,7 @@ export default function Projects() {
                     href={item.link}
                     className="mt-auto pt-4 inline-flex items-center gap-1 text-sm font-medium text-primary"
                   >
-                    Lihat Proyek <ChevronRight size={16} />
+                    Kunjungi Web <ChevronRight size={16} />
                   </Link>
                 </article>
               </SwiperSlide>

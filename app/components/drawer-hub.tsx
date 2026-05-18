@@ -54,7 +54,7 @@ export default function DrawerHub({
               <div className="flex lg:flex-wrap flex-col  items-center gap-2 justify-center w-full">
                 <button
                   className="bg-green-500 text-white w-full px-4 py-2 rounded-md hover:bg-green-400 "
-                  onClick={() => router.push("https://wa.me/6281234567890")}
+                  onClick={() => router.push("https://wa.me/6285853656272")}
                 >
                   Hubungi lewat WhatsApp
                 </button>

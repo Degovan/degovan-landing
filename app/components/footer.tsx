@@ -49,7 +49,7 @@ export default function Footer() {
                 <IconBrandInstagram />
               </Link>
               <Link
-                href="http://wa.me/6282335623028"
+                href="http://wa.me/6285853656272"
                 target="_blank"
               >
                 <IconBrandWhatsapp />
