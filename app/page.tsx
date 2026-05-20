@@ -10,7 +10,7 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Jasa Pembuatan Website & Pengembangan Website - Degovan",
+  title: "Degovan | Jasa Pembuatan Website & Pengembangan Website",
   description:
     "Degovan adalah jasa pembuatan website dan pengembangan website profesional di Indonesia untuk bisnis, UMKM, company profile, dan landing page SEO-friendly.",
   keywords: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: "Degovan",
     title:
-      "Jasa Pembuatan Website & Pengembangan Website Profesional - Degovan",
+      "Degovan | Jasa Pembuatan Website & Pengembangan Website Profesional",
     description:
       "Degovan adalah jasa pembuatan website dan pengembangan website profesional di Indonesia untuk bisnis, UMKM, company profile, dan landing page SEO-friendly.",
     images: [
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Jasa Pembuatan Website & Pengembangan Website Profesional - Degovan",
+      "Degovan | Jasa Pembuatan Website & Pengembangan Website Profesional",
     description:
       "Degovan adalah jasa pembuatan website dan pengembangan website profesional di Indonesia untuk bisnis, UMKM, company profile, dan landing page SEO-friendly.",
     images: [

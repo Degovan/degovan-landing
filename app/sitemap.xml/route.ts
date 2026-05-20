@@ -10,7 +10,7 @@ function buildSitemapXml() {
     <lastmod>${now}</lastmod>
     <priority>1.0</priority>
   </url>
-  <url>
+  <url> 
     <loc>${baseUrl}/how-we-work</loc>
     <lastmod>${now}</lastmod>
     <priority>0.8</priority>

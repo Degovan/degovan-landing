@@ -7,8 +7,8 @@ const lexend = Lexend({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Degovan",
-    template: "%s - Degovan",
+    default: "Degovan | Jasa Pembuatan Website & Pengembangan Website",
+    template: "%s | Degovan",
   },
   verification: {
     google: "4ycLNoLZeQjDEzdWnV9I3QRy5ea1rGOEkz25JmLQsRA",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   applicationName: "Degovan",
   openGraph: {
     siteName: "Degovan",
-    title: " Jasa Pembuatan Website & Pengembangan Website - Degovan",
+    title: "Degovan | Jasa Pembuatan Website & Pengembangan Website ",
     description:
       "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
     images: [
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Jasa Pembuatan Website & Pengembangan Website - Degovan",
+    title: "Degovan | Jasa Pembuatan Website & Pengembangan Website",
     description:
       "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
     images: [

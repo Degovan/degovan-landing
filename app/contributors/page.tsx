@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "solusi digital untuk bisnis",
   ],
   openGraph: {
-    title: "Tim Web Developer & Kontributor Website Profesional - Degovan",
+    title: "Degovan | Tim Web Developer & Kontributor Website Profesional",
     description:
       "Kenali tim web developer dan kontributor Degovan yang berpengalaman dalam jasa pembuatan website, landing page, dan solusi digital untuk bisnis.",
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Tim Web Developer & Kontributor Website Profesional - Degovan",
+    title: "Degovan | Tim Web Developer & Kontributor Website Profesional",
     description:
       "Kenali tim web developer dan kontributor Degovan yang berpengalaman dalam jasa pembuatan website, landing page, dan solusi digital untuk bisnis.",
     images: [
