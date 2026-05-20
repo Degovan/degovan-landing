@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon", type: "image/x-icon" },
+      { url: "https://degovan.com/favicon.ico", sizes: "any" },
+      { url: "https://degovan.com/favicon.ico", type: "image/x-icon" },
     ],
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    shortcut: "https://degovan.com/favicon.ico",
+    apple: "https://degovan.com/favicon.ico",
   },
   applicationName: "Degovan",
   openGraph: {
