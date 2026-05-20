@@ -10,6 +10,10 @@ export const metadata: Metadata = {
     default: "Degovan",
     template: "%s - Degovan",
   },
+  verification: {
+    google: "4ycLNoLZeQjDEzdWnV9I3QRy5ea1rGOEkz25JmLQsRA",
+  },
+
   description:
     "Siap berdiskusi dengan kami? Mari berkomitmen pada proyek Anda.",
   icons: {
